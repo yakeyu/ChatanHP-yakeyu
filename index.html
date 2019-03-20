@@ -26,7 +26,12 @@
   <meta name="theme-color" content="#ffffff">
 
   <!-- Stylesheets ============================================= -->
+
+  <!-- 阿部さんcss -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style_sample.css">
+
   <!-- Default stylesheets-->
+  <link rel="stylesheet" href="assets/css/reset.css">
   <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Template specific stylesheets-->
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
@@ -44,69 +49,193 @@
   <link href="assets/css/style.css" rel="stylesheet">
   <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
 </head>
+
 <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
   <main>
 
-        <!-- メディアステーションのブログ ここから -->
-        <section class="module" id="news">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">メディアステーションのブログ</h2>
-                <div class="module-subtitle font-serif">当ステーションの新鮮な情報を掲載していきます。<br>パソコン講座の案内、撮影機材に関すること、その他 日常の出来事など。お楽しみに！</div>
-              </div>
-            </div>
-            <!-- イメージ画像 -->
-            <div class="row multi-columns-row post-columns">
-              <!-- １記事目 -->
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-20">
-                  <div class="post-thumbnail"><a href="#"><img src="assets/images/post-1.jpg" alt="Blog-post Thumbnail"/></a></div>
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">タイトル</a></h2>
-                    <div class="post-meta"><p>2019/03/17</p>
-                    </div>
-                  </div>
-                  <div class="post-entry">
-                    <p>記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。</p>
-                  </div>
-                  <div class="post-more"><a class="more-link" href="#">続きを読む</a></div>
-                </div>
-              </div>
-              <!-- ２記事目 -->
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-20">
-                  <div class="post-thumbnail"><a href="#"><img src="assets/images/post-2.jpg" alt="Blog-post Thumbnail"/></a></div>
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">タイトル</a></h2>
-                    <div class="post-meta"><p>2019/03/17</p>
-                    </div>
-                  </div>
-                  <div class="post-entry">
-                    <p>記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。</p>
-                  </div>
-                  <div class="post-more"><a class="more-link" href="#">続きを読む</a></div>
-                </div>
-              </div>
-              <!-- ３記事目 -->
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-20">
-                  <div class="post-thumbnail"><a href="#"><img src="assets/images/post-3.jpg" alt="Blog-post Thumbnail"/></a></div>
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">タイトル</a></h2>
-                    <div class="post-meta"><p>2019/03/17</p>
-                    </div>
-                  </div>
-                  <div class="post-entry">
-                    <p>記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。</p>
-                  </div>
-                  <div class="post-more"><a class="more-link" href="#">続きを読む</a></div>
-                </div>
-              </div>
+    <!-- レンタル会議室 -->
+    <h1>レンタル会議室</h1>
+    <p>1時間あたり1,200円からご案内しています。</p>
+    <div class="img">
+      <img src="assets/images/meeting-room/IT.JPG" alt="IT-room">
+      <img src="assets/images/meeting-room/meeting-roomA.JPG" alt="meeting-roomA">
+      <img src="assets/images/meeting-room/meeting-roomB.JPG" alt="meeting-roomB">
+    </div>
+
+
+    <!-- レンタルオフィス -->
+    <h1>レンタルオフィス</h1>
+    <p>レンタルオフィスは北谷町役場商工観光課より公募という形で募集をおこないます</p>
+    <div class="img">
+      <img src="assets/images/meeting-room/office-roomA.JPG" alt="office-roomA">
+      <img src="assets/images/meeting-room/office-roomB.JPG" alt="office-roomB">
+      <img src="assets/images/meeting-room/office-roomC.JPG" alt="office-roomC">
+    </div>
+
+
+    <!-- レンタル器材 -->
+    <section class="module" id="rental">
+      <h2 class="subtitle">レンタル機材</h2>
+      <h3>ご予約は本日より７営業日先から受付をおこない、向こう3ヶ月までご予約できます。</h3>
+      <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid work-item">
+        <li class="work-item"><a href="portfolio-single-1.html">
+          <div class="work-image"><img src="https://placehold.jp/311.33px383.png" alt="Portfolio Item"/></div>
+          <div class="work-caption font-alt">
+            <h3 class="work-title">1日料金：2,600円</h3>
+            <h4 class="work-descr">詳細はこちらから</h4>
+          </div></a>
+        <span>ビンデン三脚</span>
+        </li>
+        <li class="work-item"><a href="portfolio-single-1.html">
+          <div class="work-image"><img src="https://placehold.jp/311.33px383.png" alt="Portfolio Item"/></div>
+          <div class="work-caption font-alt">
+            <h3 class="work-title">1日料金：500円</h3>
+            <h4 class="work-descr">詳細はこちらから</h4>
+          </div></a>
+          <span>マンフロット三脚</span>
+        </li>
+        <li class="work-item"><a href="portfolio-single-1.html">
+          <div class="work-image"><img src="https://placehold.jp/311.33px383.png" alt="Portfolio Item"/></div>
+          <div class="work-caption font-alt">
+            <h3 class="work-title">1日料金：500円</h3>
+            <h4 class="work-descr">詳細はこちらから</h4>
+          </div></a>
+        <span>ドリー</span>
+        </li>
+        <li class="work-item"><a href="portfolio-single-1.html">
+          <div class="work-image"><img src="https://placehold.jp/311.33px383.png" alt="Portfolio Item"/></div>
+          <div class="work-caption font-alt">
+            <h3 class="work-title">1日料金：2,200円</h3>
+            <h4 class="work-descr">詳細はこちらから</h4>
+          </div></a>
+          <span>ライティングキット</span>
+        </li>
+      </ul>
+    </section>  
+
+
+    <!-- レンタルスタジオ -->
+    <section class="module" id="studio">
+      <div class="">
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="assets/images/studio_slide/studio-1.JPG" alt="">
+          </div>
+          <div class="col-sm-6">
+            <div class="container">
+              <h2>レンタルスタジオ</h2>
+              <p>広さ：６０坪</p>
+              <table width="46%">
+                <tr>
+                  <td></td>
+                  <td>9-19時/時間</td>
+                  <td>19-9時/時間</td>
+                  <td>1日/24時間</td>
+                </tr>
+                <tr>
+                  <td>スタジオ</td>
+                  <td>¥4,400</td>
+                  <td>¥5,700</td>
+                  <td>¥104,500</td>
+                </tr>
+                <tr>
+                  <td>照明設備</td>
+                  <td>¥5,400</td>
+                  <td>¥7,000</td>
+                  <td>¥129,400</td>
+                </tr>
+                <tr>
+                  <td>音響設備</td>
+                  <td></td>
+                  <td></td>
+                  <td>¥6,300</td>
+                </tr>
+              </table>
+              <p class="link"><a href="">スタジオ</a>照明設備/図面<a href="">PDFダウンロード</a></p>
             </div>
           </div>
-        </section>
-        <!-- LATEST BLOG POSTS ここまで -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- メディアステーションのブログ -->
+    <section class="module" id="news">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-3">
+            <h2 class="module-title font-alt">メディアステーションのブログ</h2>
+            <div class="module-subtitle font-serif">当ステーションの新鮮な情報を掲載していきます。<br>パソコン講座の案内、撮影機材に関すること、その他 日常の出来事など。お楽しみに！</div>
+          </div>
+        </div>
+        <!-- イメージ画像 -->
+        <div class="row multi-columns-row post-columns">
+          <!-- １記事目 -->
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="post mb-20">
+              <div class="post-thumbnail"><a href="#"><img src="assets/images/post-1.jpg" alt="Blog-post Thumbnail"/></a></div>
+              <div class="post-header font-alt">
+                <h2 class="post-title"><a href="#">タイトル</a></h2>
+                <div class="post-meta"><p>2019/03/17</p>
+                </div>
+              </div>
+              <div class="post-entry">
+                <p>記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。</p>
+              </div>
+              <div class="post-more"><a class="more-link" href="#">続きを読む</a></div>
+            </div>
+          </div>
+          <!-- ２記事目 -->
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="post mb-20">
+              <div class="post-thumbnail"><a href="#"><img src="assets/images/post-2.jpg" alt="Blog-post Thumbnail"/></a></div>
+              <div class="post-header font-alt">
+                <h2 class="post-title"><a href="#">タイトル</a></h2>
+                <div class="post-meta"><p>2019/03/17</p>
+                </div>
+              </div>
+              <div class="post-entry">
+                <p>記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。</p>
+              </div>
+              <div class="post-more"><a class="more-link" href="#">続きを読む</a></div>
+            </div>
+          </div>
+          <!-- ３記事目 -->
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="post mb-20">
+              <div class="post-thumbnail"><a href="#"><img src="assets/images/post-3.jpg" alt="Blog-post Thumbnail"/></a></div>
+              <div class="post-header font-alt">
+                <h2 class="post-title"><a href="#">タイトル</a></h2>
+                <div class="post-meta"><p>2019/03/17</p>
+                </div>
+              </div>
+              <div class="post-entry">
+                <p>記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。記事の抜粋がここに表示されます。</p>
+              </div>
+              <div class="post-more"><a class="more-link" href="#">続きを読む</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="btn">
+          <button>記事一覧</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- googleマップ -->
+    <section class="module" id="map">
+      <div class="container">
+        
+
+
+
+
+
+
+
+      </div>
+    </section>
+
 
     <!-- コンタクトフォーム -->
     <section class="module" id="contact">
@@ -151,9 +280,9 @@
         </div>
       </div>
     </section>
-    <!-- コンタクトフォームここまで -->
 
     <hr class="divider-d">
+
     <!-- フッター -->
     <footer class="footer bg-dark">
       <div class="container">
@@ -168,7 +297,6 @@
         </div>
       </div>
     </footer>
-    <!-- フッターここまで -->
   </main>
 
   <!-- JavaScripts ============================================= -->
@@ -187,9 +315,6 @@
   <script src="assets/js/main.js"></script>
 </body>
 </html>
-
-
-
 
 
 
