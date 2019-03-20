@@ -16,7 +16,7 @@ body {
 
 img {
   max-width: 100%;
-  height: auto;
+  height: 270px;
 }
 
 iframe {
@@ -913,7 +913,7 @@ blockquote {
   font-weight: 400;
   font-size: 30px;
   color: #111;
-  margin: 0 0 70px;
+  margin: 0 0 40px;
 }
 
 .module-subtitle {
@@ -2925,3 +2925,44 @@ Google map
     width: 100%;
   }
 }
+
+
+/*ここからオリジナル*/
+#studio tr{
+  line-height: 24px;
+  border-bottom: solid 1px silver;
+}
+
+#studio img{
+  height: 460px;
+  width: 760px;
+}
+
+#studio .row{
+  display: flex;
+  align-items: center;
+}
+
+#studio .link{
+  margin-top: 10px;
+}
+
+#studio .link,
+#studio a{
+  color: #006CFF;
+}
+
+#studio a{
+  text-decoration: underline;
+}
+
+#news .btn{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
