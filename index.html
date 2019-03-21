@@ -8,11 +8,22 @@
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/lib/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+
+  <!-- 車さんcss（トップ画像スライド） -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 </head>
 <body>
   <main>
-    <div class="main">
 
+    <!-- 車さんセクション（トップスライド画像） -->
+    <div class="slider">
+      <img src="assets/images/top_slide/img1.JPG" width="1920" height="1080" alt="">
+      <img src="assets/images/top_slide/img2.JPG" width="1920" height="1080" alt="">
+      <img src="assets/images/top_slide/img3.JPG" width="1920" height="1080" alt="">
+      <img src="assets/images/top_slide/img4.JPG" width="1920" height="1080" alt="">
+    </div>
+
+    <div class="main">
       <!-- 車さんセクション（レンタル会議室＆オフィス） -->
       <section class="module" id="works">
       <!-- レンタル会議室 -->
@@ -258,5 +269,23 @@
   <!-- JavaScripts ====================================-->
   <script src="assets/lib/jquery/dist/jquery.js"></script>
   <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- 車さんjquery（トップ画像スライド） -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+  </script>
+
+
 </body>
 </html>
+
+
+
+
