@@ -475,6 +475,24 @@ Google map
 
 /*ここからオリジナル*/
 /*レンタル会議室＆レンタルオフィス*/
+#works h1{
+  text-align: center;
+  font-size: 25px;
+}
+
+#works p{
+  text-align: center;
+  font-size: 18px;
+}
+#works img{
+  height: 381px;
+  width: 632.33px;
+  margin-left: 5px;
+}
+
+#works .img{
+  display: flex;
+}
 
 
 
