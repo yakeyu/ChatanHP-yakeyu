@@ -3017,6 +3017,19 @@ Google map
   max-width: none;
 }
 
+/*レスポンシブ対応*/
+@media screen and (max-width:480px) {
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
