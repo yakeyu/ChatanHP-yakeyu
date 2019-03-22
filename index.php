@@ -13,22 +13,22 @@
     Favicons
     =============================================
     -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!--  
     Stylesheets
@@ -36,23 +36,23 @@
     
     -->
     <!-- Default stylesheets-->
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/reset.css">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Template specific stylesheets-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-    <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
-    <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
-    <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
-    <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
-    <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
-    <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/lib/animate.css/animate.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
     <!-- Main stylesheet and color file-->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css" rel="stylesheet">
+    <link id="color-scheme" href="<?php echo get_template_directory_uri(); ?>/assets/css/colors/default.css" rel="stylesheet">
   </head>
 
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
@@ -102,7 +102,7 @@
         <div class="hero-slider">
           <ul class="slides">
             <!-- スライダー１枚目 -->
-            <li class="bg-dark-30 bg-dark" style="background-image:url(assets/images/top_slide/img1.JPG);">
+            <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img1.JPG);">
               <div class="titan-caption">
                 <div class="caption-content">
                   <div class="font-alt mb-40 titan-title-size-4">記憶や想いを”カタチ”にする施設</div>
@@ -110,7 +110,7 @@
               </div>
             </li>
             <!-- スライダー２枚目 -->
-            <li class="bg-dark-30 bg-dark" style="background-image:url(assets/images/top_slide/img2.JPG);">
+            <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img2.JPG);">
               <div class="titan-caption">
                 <div class="caption-content">
                   <div class="font-alt mb-40 titan-title-size-4">記憶や想いを”カタチ”にする施設</div>
@@ -118,7 +118,7 @@
               </div>
             </li>
             <!-- スライダー３枚目 -->
-            <li class="bg-dark-30 bg-dark" style="background-image:url(assets/images/top_slide/img3.JPG);">
+            <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img3.JPG);">
               <div class="titan-caption">
                 <div class="caption-content">
                   <div class="font-alt mb-40 titan-title-size-4">記憶や想いを”カタチ”にする施設</div>
@@ -126,7 +126,7 @@
               </div>
             </li>
             <!-- スライダー４枚目 -->
-            <li class="bg-dark-30 bg-dark" style="background-image:url(assets/images/top_slide/img4.JPG);">
+            <li class="bg-dark-30 bg-dark" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/top_slide/img4.JPG);">
               <div class="titan-caption">
                 <div class="caption-content">
                   <div class="font-alt mb-40 titan-title-size-4">記憶や想いを”カタチ”にする施設</div>
@@ -153,7 +153,7 @@
           <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
             <!-- １枚目 -->
             <li class="work-item illustration webdesign"><a href="portfolio-single-1.html">
-              <div class="work-image"><img src="assets/images/IT.JPG" alt="Portfolio Item"/></div>
+              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/IT.JPG" alt="Portfolio Item"/></div>
               <div class="work-caption font-alt">
                 <h3 class="work-title">Corporate Identity</h3>
                 <div class="work-descr">Illustration</div>
@@ -161,7 +161,7 @@
             </li>
             <!-- ２枚目 -->
             <li class="work-item marketing photography"><a href="portfolio-single-1.html">
-              <div class="work-image"><img src="assets/images/meeting-roomA.JPG" alt="Portfolio Item"/></div>
+              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/meeting-roomA.JPG" alt="Portfolio Item"/></div>
               <div class="work-caption font-alt">
                 <h3 class="work-title">Bag MockUp</h3>
                 <div class="work-descr">Marketing</div>
@@ -169,7 +169,7 @@
             </li>
             <!-- ３枚目 -->
             <li class="work-item illustration photography"><a href="portfolio-single-1.html">
-              <div class="work-image"><img src="assets/images/meeting-roomB.JPG" alt="Portfolio Item"/></div>
+              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/meeting-roomB.JPG" alt="Portfolio Item"/></div>
               <div class="work-caption font-alt">
                 <h3 class="work-title">Disk Cover</h3>
                 <div class="work-descr">Illustration</div>
@@ -194,21 +194,21 @@
           <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
             <!-- １枚目 -->
             <li class="work-item illustration webdesign"><a href="portfolio-single-1.html">
-                <div class="work-image"><img src="assets/images/office-roomA.JPG" alt="Portfolio Item"/></div>
+                <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomA.JPG" alt="Portfolio Item"/></div>
                 <div class="work-caption font-alt">
                   <h3 class="work-title">Corporate Identity</h3>
                   <div class="work-descr">Illustration</div>
                 </div></a></li>
             <!-- ２枚目 -->
             <li class="work-item marketing photography"><a href="portfolio-single-1.html">
-                <div class="work-image"><img src="assets/images/office-roomB.JPG" alt="Portfolio Item"/></div>
+                <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomB.JPG" alt="Portfolio Item"/></div>
                 <div class="work-caption font-alt">
                   <h3 class="work-title">Bag MockUp</h3>
                   <div class="work-descr">Marketing</div>
                 </div></a></li>
             <!-- ３枚目 -->
             <li class="work-item illustration photography"><a href="portfolio-single-1.html">
-                <div class="work-image"><img src="assets/images/office-roomC.JPG" alt="Portfolio Item"/></div>
+                <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-roomC.JPG" alt="Portfolio Item"/></div>
                 <div class="work-caption font-alt">
                   <h3 class="work-title">Disk Cover</h3>
                   <div class="work-descr">Illustration</div>
@@ -223,7 +223,7 @@
           <h3>ご予約は本日より７営業日先から受付をおこない、向こう3ヶ月までご予約できます。</h3>
           <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid work-item">
             <li class="work-item"><a href="portfolio-single-1.html">
-              <div class="work-image"><img src="assets/images/binden.jpg" alt="Rental Item"/></div>
+              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/binden.jpg" alt="Rental Item"/></div>
               <div class="work-caption font-alt">
                 <h3 class="work-title">1日料金：2,600円</h3>
                 <h4 class="work-descr">詳細はこちらから</h4>
@@ -231,7 +231,7 @@
               <span>ビンデン三脚</span>
             </li>
             <li class="work-item"><a href="portfolio-single-1.html">
-              <div class="work-image"><img src="assets/images/manfurotto.jpg" alt="Rental Item"/></div>
+              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/manfurotto.jpg" alt="Rental Item"/></div>
               <div class="work-caption font-alt">
                 <h3 class="work-title">1日料金：500円</h3>
                 <h4 class="work-descr">詳細はこちらから</h4>
@@ -239,7 +239,7 @@
               <span>マンフロット三脚</span>
             </li>
             <li class="work-item"><a href="portfolio-single-1.html">
-              <div class="work-image"><img src="assets/images/dori-.jpg" alt="Rental Item"/></div>
+              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/dori-.jpg" alt="Rental Item"/></div>
               <div class="work-caption font-alt">
                 <h3 class="work-title">1日料金：500円</h3>
                 <h4 class="work-descr">詳細はこちらから</h4>
@@ -247,7 +247,7 @@
               <span>ドリー</span>
             </li>
             <li class="work-item"><a href="portfolio-single-1.html">
-              <div class="work-image"><img src="assets/images/lighting-kit.jpg" alt="Rental Item"/></div>
+              <div class="work-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lighting-kit.jpg" alt="Rental Item"/></div>
               <div class="work-caption font-alt">
                 <h3 class="work-title">1日料金：2,200円</h3>
                 <h4 class="work-descr">詳細はこちらから</h4>
@@ -263,7 +263,7 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-6">
-                <img src="assets/images/studio_slide/studio-1.jpg" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studio_slide/studio-1.jpg" alt="">
               </div>
               <div class="col-sm-6">
                 <div class="container table">
@@ -317,7 +317,7 @@
               <!-- １記事目 -->
               <div class="col-sm-6 col-md-4 col-lg-4">
                 <div class="post mb-20">
-                  <div class="post-thumbnail"><a href="#"><img src="assets/images/post-1.jpg" alt="Blog-post Thumbnail"/></a></div>
+                  <div class="post-thumbnail"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/post-1.jpg" alt="Blog-post Thumbnail"/></a></div>
                   <div class="post-header font-alt">
                     <h2 class="post-title"><a href="#">タイトル</a></h2>
                     <div class="post-meta"><p>2019/03/17</p>
@@ -332,7 +332,7 @@
               <!-- ２記事目 -->
               <div class="col-sm-6 col-md-4 col-lg-4">
                 <div class="post mb-20">
-                  <div class="post-thumbnail"><a href="#"><img src="assets/images/post-2.jpg" alt="Blog-post Thumbnail"/></a></div>
+                  <div class="post-thumbnail"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/post-2.jpg" alt="Blog-post Thumbnail"/></a></div>
                   <div class="post-header font-alt">
                     <h2 class="post-title"><a href="#">タイトル</a></h2>
                     <div class="post-meta"><p>2019/03/17</p>
@@ -347,7 +347,7 @@
               <!-- ３記事目 -->
               <div class="col-sm-6 col-md-4 col-lg-4">
                 <div class="post mb-20">
-                  <div class="post-thumbnail"><a href="#"><img src="assets/images/post-3.jpg" alt="Blog-post Thumbnail"/></a></div>
+                  <div class="post-thumbnail"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/post-3.jpg" alt="Blog-post Thumbnail"/></a></div>
                   <div class="post-header font-alt">
                     <h2 class="post-title"><a href="#">タイトル</a></h2>
                     <div class="post-meta"><p>2019/03/17</p>
@@ -445,18 +445,18 @@
     JavaScripts
     =============================================
     -->
-    <script src="assets/lib/jquery/dist/jquery.js"></script>
-    <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="assets/lib/wow/dist/wow.js"></script>
-    <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
-    <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
-    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
-    <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
-    <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
-    <script src="assets/lib/smoothscroll.js"></script>
-    <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
-    <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/jquery/dist/jquery.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/wow/dist/wow.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/flexslider/jquery.flexslider.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/smoothscroll.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/plugins.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
   </body>
 </html>
